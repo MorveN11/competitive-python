@@ -9,6 +9,9 @@ La raíz del proyecto es solo para tus ejercicios. Todo lo demás está en carpe
 ```
 cp-python/
 ├── ej_suma.py          ← ejemplo resuelto (tus ejercicios van aquí, en la raíz)
+├── course/             ← curso introductorio (14 cuadernos .ipynb)
+├── study/              ← material de estudio del Nivel 2 (7 cuadernos + hoja de trucos)
+├── problems/           ← problemas de años anteriores, con grader local
 ├── data/
 │   ├── input.txt       ← entrada de prueba (tú la escribes)
 │   ├── output.txt      ← SOLO la respuesta del programa (se regenera)
@@ -18,6 +21,15 @@ cp-python/
 │   └── cp_helper.py    ← funciones de debug
 └── .vscode/            ← snippet, tarea de ejecución, depuración, ajustes
 ```
+
+## Curso introductorio
+
+La carpeta [`course/`](course/README.md) tiene un curso de 14 cuadernos para principiantes: Python básico, introducción a la programación competitiva, problemas sencillos y el uso de este template. Empieza por `course/01_primer_programa.ipynb`. Para abrirlos hace falta la extensión Jupyter y `python -m pip install ipykernel` (detalles en `course/README.md`).
+
+## Material de estudio y problemas del Nivel 2
+
+- [`study/`](study/README.md): un cuaderno por cada tópico del temario del Nivel 2 (control y arreglos, números, cadenas, prefijos/dos punteros/ventana, simulación y búsqueda completa, búsqueda binaria/golosos/pilas/colas/sets/mapas), más una [hoja de trucos](study/hoja_de_trucos.md).
+- [`problems/`](problems/README.md): espacio para resolver problemas de años anteriores. Los problemas son **con grader** (se implementa una función). `python problems/nuevo.py 2023 nombre` crea la carpeta de un problema.
 
 ## Requisitos
 

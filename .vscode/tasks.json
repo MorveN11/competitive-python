@@ -10,6 +10,16 @@
       "group": { "kind": "build", "isDefault": true },
       "presentation": { "reveal": "silent", "clear": true },
       "problemMatcher": []
+    },
+    {
+      "label": "Probar problema (grader)",
+      "type": "shell",
+      "command": "python",
+      "args": ["${fileDirname}/grader.py"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": "test",
+      "presentation": { "reveal": "always", "clear": true },
+      "problemMatcher": []
     }
   ]
 }
