@@ -1,0 +1,7 @@
+# Normaliza finales de línea: evita diferencias CRLF/LF entre Windows, Mac y Linux
+* text=auto eol=lf
+*.py text eol=lf diff=python
+*.md text eol=lf diff=markdown
+*.txt text eol=lf
+*.json text eol=lf
+*.code-snippets text eol=lf

@@ -1,0 +1,19 @@
+# Salidas locales (se regeneran en cada ejecución)
+data/output.txt
+data/debug.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editores y sistema
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+.env
