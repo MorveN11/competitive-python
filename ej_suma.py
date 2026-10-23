@@ -30,21 +30,21 @@ except ImportError:
 def solve():
     # --- Lectura (descomenta lo que necesites) ---
     n = int(input())                                                # un entero
-    # a, b = map(int, input().split())                              # varios en una línea
-    arr = [int(x) for x in input().split()]                         # lista 1D
+    # a, b = map(int, input().split())                              # varios en una línea                    # lista 1D
     # s = input().strip()                                           # un string
     # mat = [[int(x) for x in input().split()] for _ in range(n)]   # matriz de n filas
     # grid = [input().strip() for _ in range(n)]                    # tablero de caracteres
+    arr = list(range(1, n + 1))
 
     # --- Depuración (se ve en data/debug.txt) ---
     dbg(n, arr)            # imprime nombre y valor de cualquier variable
     # dbg_mat(mat)         # matriz como tabla
     # dbg_grid(grid)       # tablero con coordenadas
 
-    # --- Solución ---
-    ans = sum(arr)
+    # # --- Solución ---
+    ans = (n * (n+1))//2
 
-    # --- Respuesta ---
+    # # --- Respuesta ---
     print(ans)             # va a data/output.txt
 
 

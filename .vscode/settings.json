@@ -2,7 +2,14 @@
   "[python]": {
     "editor.tabCompletion": "onlySnippets",
     "editor.snippetSuggestions": "top",
-    "editor.quickSuggestions": { "other": "on", "comments": "off", "strings": "off" },
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": "off"
+    },
     "editor.suggest.snippetsPreventQuickSuggestions": false
-  }
+  },
+  "python.analysis.extraPaths": [
+    "./lib"
+  ]
 }
